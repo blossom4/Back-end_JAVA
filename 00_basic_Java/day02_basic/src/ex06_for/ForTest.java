@@ -1,4 +1,4 @@
-package ex06.control.For;
+package ex06_for;
 
 public class ForTest {
 

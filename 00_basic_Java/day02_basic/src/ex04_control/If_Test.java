@@ -1,4 +1,4 @@
-package ex04.control;
+package ex04_control;
 
 import java.util.Scanner;
 

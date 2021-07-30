@@ -1,5 +1,5 @@
 // day02_basic\src\ex01\basic
-package ex01.basic;
+package ex01_basic;
 
 // 파일명과 클래스명이 같아야한다.
 public class Hello {

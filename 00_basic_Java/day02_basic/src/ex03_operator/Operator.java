@@ -1,4 +1,4 @@
-package ex03.operator;
+package ex03_operator;
 	
 public class Operator {
 	public static void main (String[] args) {

@@ -1,4 +1,4 @@
-package ex02.dataType;
+package ex02_dataType;
 
 public class DataType {
 	public static void main (String[] ars) {
