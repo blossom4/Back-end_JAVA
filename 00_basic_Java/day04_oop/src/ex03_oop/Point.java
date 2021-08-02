@@ -36,7 +36,12 @@ public class Point {
 	}
 	
 	public void display() {
-		System.out.println("x = " + x + " y = " + y);
+		System.out.println("x = " + x + " y = " + y + "\t" + "display");
+	}
+	
+	// toString으로 직접 값을 받아올 수 있다.
+	public String toString() {
+		return "x = " + x + " y = " + y + "\t" + "toString";
 	}
 	
 

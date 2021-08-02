@@ -7,6 +7,7 @@ public class MainEntry {
 		System.out.println("Point");
 		Point pt1 = new Point(1, 1);
 		pt1.display();
+		System.out.println(pt1);
 		
 		// 매개변수를 받지 않은 class int default값인 0을 받아온다.
 		Point pt2 = new Point();
@@ -26,6 +27,7 @@ public class MainEntry {
 		System.out.println("\nRectangular");
 		Rectangular r1 = new Rectangular();
 		r1.display();
+		System.out.println(r1);
 		
 		Rectangular r2 = new Rectangular(1, 1, 5, 5);
 		r2.display();

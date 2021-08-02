@@ -37,4 +37,13 @@ public class Rectangular extends Point {
 		System.out.println("x = " + super.getX() + " y = " + super.getY());
 		System.out.println("x2 = " + getX2() + " y2 = " + getY2());
 	}
+
+	// toString으로 직접 값을 받아올 수 있다.
+	// 이 때 상속된 값들도 따로 체크하여 표시할 수 있다.
+	@Override
+	public String toString() {
+		return "Rectangular [x2=" + x2 + ", y2=" + y2 + ", x=" + x + ", y=" + y + "]";
+	}
+	
+	
 }
