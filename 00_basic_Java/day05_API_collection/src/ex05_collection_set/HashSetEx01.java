@@ -3,7 +3,7 @@ package ex05_collection_set;
 import java.util.HashSet;
 import java.util.Iterator;
 
-public class Ex01HashSet {
+public class HashSetEx01 {
 
 	public static void main(String[] args) {
 		// Set은 순서가 없고, 중복을 허용하지 않는다.
