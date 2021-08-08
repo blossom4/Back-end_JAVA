@@ -8,7 +8,7 @@ public class OperationEx2 {
 		System.out.println(num2++);
 		
 		System.out.println(3 > 5);
-		System.out.println(1 == 1);
+		System.out.println(1 > 1);
 	}
 
 }
