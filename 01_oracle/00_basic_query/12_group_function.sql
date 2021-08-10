@@ -69,3 +69,19 @@ from emp;
 -- 15. 사원들의 급여 중 최대값과 최소값을 구한다.
 select max(sal), min(sal)
 from emp;
+
+-- 16. 각 부서별 사원들의 평균 급여를 구한다.
+select deptno, trunc(avg(sal))
+from emp
+group by deptno;
+
+-- 17. 각 직무별 사원들의 급여 총합을 구한다.
+select job, sum(sal)
+from emp
+group by job;
+
+-- 18. 각 부서별 급여가 1500 이상인 사원들의 평균 급여를 구한다.
+select deptno, trunc(avg(sal))
+from emp
+where sal >= 1500
+group by deptno;
