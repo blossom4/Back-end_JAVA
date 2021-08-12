@@ -111,7 +111,4 @@ where deptno = (select deptno
       mgr = (select empno
              from emp
              where ename = 'BLAKE');
-      
-
-select * from emp;
-select * from dept;
+    
