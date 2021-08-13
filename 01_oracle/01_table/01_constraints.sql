@@ -1,4 +1,4 @@
--- TABLE LEVEL CONSTRAINTS
+-- CONSTRAINTS
 -- NOT NULL: column에 null을 허용하지 않는다.
 -- UNIQUE: 중복값을 허용하지 않는다. null은 무한히 저장할 수 있다.
 -- PRIMARY KEY: 중복값을 허용하지 않으며 null값도 허용하지 않는다. 
