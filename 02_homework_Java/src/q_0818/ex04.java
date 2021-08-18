@@ -47,12 +47,20 @@ public class ex04 {
 			// 기억 memory가 가득 찼고 , 가장 오래된 단어가 평균보다 길다면 해당 단어를 제거한다.
 			// 기억 memory가 가득 찼고, 가장 오래된 단어가 평균보다 길다면 다음 index의 단어를 제거한다.
 			if (memory.size() == N) {
-				if (isLonger(memory, (String)memory.get(0)) == false) memory.remove(0);
-				else memory.remove(1);
+				int j = 0;
+				while (j < memory.size()) {
+					if (isLonger(memory, (String)memory.get(j)) == false) {
+						memory.remove(j);
+						break;
+					}
+					j++;
+				}
 			}
 			
 			// memory ArrayList에 해당 단어를 추가한다.
 			memory.add(words[i]);
+			
+			System.out.println("memery: " + memory);
 		}
 		
 		// 걸린시간 출력
