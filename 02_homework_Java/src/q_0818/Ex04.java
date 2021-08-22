@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 
-public class ex04 {
+public class Ex04 {
 	
 	// 새로 들어온 단어가 암기하고 있는 단어의 평균보다 긴지 아닌지 여부를 확인하는 함수 isLonger
 	public static boolean isLonger(ArrayList al, String s) {
